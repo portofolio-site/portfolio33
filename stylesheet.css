@@ -1,0 +1,381 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+  }
+
+
+
+body{
+  font-size:15px;
+  font-family:Georgia;
+  line-height:1.8;
+}
+
+ul{
+  list-style:none;
+}
+
+li{
+  float:left;
+  margin-right:20px;
+}
+h1{
+  font-size:45px;
+}
+.header-right ul{
+  cursor:pointer;
+}
+.header-right{
+  padding-bottom:50px;
+}
+.header-right li:hover{
+  opacity:0.7;
+}
+
+.container{
+  width:90%;
+}
+.header-wrapper{
+  background-color:#eeeeee;
+  width:90%;
+  height:300px;
+  margin-top:100px;
+}
+.header-wrapper p{
+  font-size:100%;
+  font-size:30px;
+}
+.header-right ul{
+  float:right;
+}
+.header-left{
+  padding:50px 0 0 50px;
+}
+.pho{
+  width:200px;
+  height:200px;
+  border-radius:60%;
+}
+.phot{
+  height:250px;
+  width:250px;
+  float:left;
+  margin-right:150px;
+}
+.ab{
+  font-size:50px;
+  text-align:center;
+}
+.about{
+  padding-top:100px;
+  padding-bottom:200px;
+  width:460px;
+  height:500px;
+}
+.about h1{
+  text-align:center;
+}
+.about img{
+  float:right;
+}
+.ma{
+  float:left;
+  margin-left:50px;
+}
+.photo-a{
+  width:500px;
+  height:200px;
+}
+.skill{
+  margin-bottom:100px;
+  margin-top:30px;
+  padding-top:30px;
+　background-color:pink;
+ height:500px;
+}
+.skill h1{
+   text-align:center;
+
+}
+.cording{
+  width:470px;
+}
+.cording h2{
+  text-align:center;
+}
+.cording h3{
+  text-align:center;
+  opacity:0.7;
+  padding-top:10px;
+}
+.cording img{
+  height:200px;
+  width:100px;
+}
+.cording h3{
+  margin-top:10px;
+}
+.cording-photo{
+  padding-left:200px;
+  padding-top:-50px;
+}
+.works{
+  padding-top:30px;
+  height:500px;
+}
+.works img{
+  height:200px;
+  width:350px;
+}
+.works a{
+  margin-left:50px;
+}
+.wo{
+  text-align:center;
+}
+footer{
+  padding-top:40px;
+  padding-bottom:20px;
+}
+footer p{
+  text:center;
+}
+}
+#line{
+  width:33px;
+  height:6px;
+  background-color:black;
+  margin:5px;
+  margin-left: 420px;
+}
+label{
+  cursor:pointer;
+}
+.menu-smaho{
+   text-align:center;
+   padding-top:15px;
+}
+.menu-smaho ul{
+  padding:100px;
+  list-style:none;
+}
+.menu-smaho li{
+  margin:50px;
+  font-size:20px;
+}
+.menu-smaho li:hover{
+  opacity:0.7;
+  cursor:pointer;
+}
+#input{
+  display:none;
+}
+
+.content{
+  background-color:pink;
+  width:460px;
+  height:580px;
+  transform:translateX(-470px);
+  position:fixed;
+  z-index:999;
+}
+#input:checked~.content{
+  transform:translateX(0px);
+}
+a{
+  cursor:pointer;
+  text-decoration:none;
+  color:black;
+}
+
+
+@media(min-width:540px){
+  .menu-smaho{
+    display:none;
+  }
+}
+
+
+
+@media(max-width:540px){
+
+  body{
+    width:100%;
+    right:0;
+    padding-right:-100px;
+
+  }
+  #menu ul{
+    display:none;
+  }
+
+  .cording{
+    width:300px;
+    margin-left:50px;
+  }
+  footer p{
+    text-align:left;
+    margin-left:-800px;
+  }
+  .container{
+
+
+    margin-left:-10px;
+  }
+  .header-wrapper{
+    margin-left:60px;
+    width:350px;
+    height:310px;
+    margin-top:100px;
+  }
+  .ma{
+    width:350px;
+  }
+  .cording-photo{
+    height:200px;
+  }
+  .cording-photo img{
+    margin-left:-100px;
+  }
+  .works img{
+    width:350px;
+  }
+.phot img{
+  width:150px;
+  height:150px;
+  margin-left:80px;
+  margin-bottom:180px;
+}
+.phot{
+  height:250px;
+}
+
+}
+div.bg-sample {
+  background-image:url(bg.jpg);
+  background-size:cover;
+  width:95%;
+  height:400px;
+  padding:0 0 0 20px;
+}
+div.bg-sample h2{
+  font-size:30px;
+  padding:20px 20px 0 20px ;
+  color:white;
+}
+div.bg-sample a{
+  color:white;
+  text-decoration:none;
+}
+div.bg-sample a:hover{
+  opacity:0.7;
+}
+div.bg-sample  h1{
+  text-align:center;
+  padding: 80px 0 0 0;
+  color:white;
+}
+div.bg-sample p{
+  text-align:center;
+  padding:80px;
+  color:white;
+
+}
